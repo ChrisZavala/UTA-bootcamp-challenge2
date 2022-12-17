@@ -1,12 +1,11 @@
 
 :root {
   --dark: #6D676E;
-  --light: #1C5CE5;
+  --light: #58C0A9;
   --navcolor: #58C0A9;
   --hover: #FFFCEF;
 
 }
-
 
 
 body {
@@ -26,10 +25,8 @@ body {
 
 h1 {
   font-size: 250%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
-  Arial, Helvetica, sans-serif, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 nav ul  {
   display: flex;
   justify-content: space-between;
@@ -51,6 +48,15 @@ nav a {
 
 nav a:hover {
   color: var(--hover);
+}
+
+.imagepic {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/microprocessor-1.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 
