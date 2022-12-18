@@ -1,10 +1,16 @@
 
 :root {
-  --dark: #6D676E;
+  --dark: #403C3D;
   --light: #58C0A9;
   --navcolor: #58C0A9;
   --hover: #FFFCEF;
-  --textsubtit: black;
+  --textsubtit: #403C3D;
+  --canvascolor: #FFFFFF;
+  --colortrans: #20A4F3;
+}
+
+main{
+  background-color: var(--canvascolor);
 }
 
 body {
@@ -31,6 +37,7 @@ h1 {
   font-style: bold;
   padding-right: 20px;
   padding-left: 40px;
+  border-radius: 10px;
   font-size: 250%;
   margin-top: -200;
   max-width: fit-content;
@@ -63,7 +70,7 @@ nav a:hover {
   height: 250px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../images/microprocessor-1.jpg");
+  background-image: url("../images/cpucircuit.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -84,31 +91,86 @@ nav a:hover {
 
 h2 {
   margin: 4% 0;
-  font-size: 350%;
+  font-size: 65px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: var(--dark);
-  margin: 20px, 0px, 0px, 300px;
-
+  margin-top: -98px;
+  margin-left: 140px;
+  margin-bottom: 100px;
+  float: left;
+  
 }
 
+
+.aboutme {
+  font-size: 50px;
+  text-align:right;
+} 
+
 .aboutmecontainer {
-  height: 200px;
+  height: 250px;
 }
 
 .aboutmewrapper {
   border-right: 10px var(--dark);
-  height: 300px;
+  height: 200px;
   float: left;
   width: 10%;
   margin-top: 100px;
-
 }
 
 .aboutmeparagraph {
   float: right;
-  margin-right: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  margin-right: 100px;
   margin-top: 25px;
-  width: 50%;
+  width: 75%;
+}
+
+.workcontainer {
+  height: 250px;
+}
+
+.workwrapper {
+  border-right: 10px var(--dark);
+  height: 200px;
+  float: left;
+  width: 10%;
+  /* margin-top: 100px; */
+  margin-left: -180px;
+}
+
+.work {
+  font-size: 50px;
+  text-align:right;
+  padding-top: 110px;
+}
+
+.workparagraph {
+  float: right;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  margin-right: 100px;
+  margin-top: 25px;
+  width: 75%;
+}
+
+.workplaceholder1 {
+  border: 10px solid var(--dark);
+  margin-top: 1%;
+}
+
+workplaceholder2 {
+  width: 1%;
+  margin-top: 1%;
+  border: 10px var(--dark);
+}
+
+.workplaceholder1:hover, .workplaceholder2:hover {
+  box-shadow: inset 0px 0px 8px var(--dark), 0px 0px 8px var(--colortrans);
+}
+
 
 
 
