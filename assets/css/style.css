@@ -11,7 +11,7 @@
 }
 
 main{
-  background-color: var(--canvascolor);
+  background-color: white;
 }
 
 body {
@@ -84,7 +84,6 @@ nav a:hover {
   max-width: fit-content;
   z-index: 100;
   position: relative;
-
 }
 
 h2 {
@@ -107,8 +106,6 @@ h2 {
 
 .aboutmecontainer {
   height: 300px;
-  /* display:flex;
-  flex-wrap: wrap; */
 }
 
 .aboutmewrapper {
@@ -145,7 +142,6 @@ h2 {
   float: left;
   
   width: 15%;
-  /* margin-top: 100px; */
 }
 .workparagraph {
   display: flex;
@@ -154,8 +150,6 @@ h2 {
   width: 100%;
   float: right; 
   margin-right: 20px;
-  /* margin-top: 50px;
-  width: 75%;  */
 }
 
 .subtitleswork1 {
@@ -167,11 +161,8 @@ h2 {
   font-size: 20px;
   margin-top: 8%;
   margin-left:100px;
-  /* margin-right: 5%;  */
   max-width: fit-content;
-  /* z-index: 100; */
   position: relative;
-
 }
 
 .workplaceholder1 {
@@ -215,27 +206,26 @@ h3 {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: var(--dark);
   font-weight: bolder;
-  /* margin: 20px 0px 0px 25px; */
   text-align: right;
 }
 
 .contactinfo {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
   font-size: 32px;
   display: flex;
   width: 50%;
   justify-content: space-between;
   text-align: left;
   margin-top: 5%;
-  margin-left: 12%;
+  margin-left: 5%;
   float: left;
 } 
 .contactinfo a{
   color: var(--dark);
 }
 .contactinfo a:hover {
-  color: var(--colortrans);
+  color: var(--canvascolor);
+  text-shadow:2px 2px 8px var(--dark);
 }
 
 
