@@ -129,30 +129,29 @@ h2 {
   font-size: 60px;
   float: right;
   font-weight: bolder;
-  padding-right: 5%; 
+  padding-right: 100%; 
   
 }
 .workcontainer {
-  height: 300px;
+  height: 400px;
 }
 
 .workwrapper {
   border-right: 5px solid var(--dark);
-  height: 650px;
+  height: 700px;
   float: left;
-  
   width: 15%;
 }
 .workparagraph {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100%;
-  float: right; 
-  margin-right: 20px;
+  width: 25%;
+  /* float: right; 
+  margin-right: 85px; */
 }
 
-.subtitleswork1 {
+/* .subtitleswork1 {
   background-color: var(--light);
   color: var(--textsubtit);
   font-style: bolder;
@@ -163,20 +162,20 @@ h2 {
   margin-left:100px;
   max-width: fit-content;
   position: relative;
-}
+} */
 
-.workplaceholder1 {
+.workpics1 {
   border: 10px solid var(--dark);
   margin-top: 2%;
 }
 
-.workplaceholder2 {
+.workpics2 {
   border: 10px solid var(--dark);
-  width: 1%;
+  width: 100%;
   margin-top: 1%;
 }
 
-.workplaceholder1:hover .workplaceholder2:hover {
+.workpics1:hover .workpics2:hover {
   box-shadow: inset 0px 0px 8px var(--dark), 0px 0px 15px var(--colortrans);
 }
 
