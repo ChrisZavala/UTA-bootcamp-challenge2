@@ -166,12 +166,14 @@ h2 {
 
 .workpics1 {
   border: 10px solid var(--dark);
+  margin-left: 1000px;
   margin-top: 2%;
 }
 
 .workpics2 {
   border: 10px solid var(--dark);
-  width: 100%;
+  
+  width: 50%;
   margin-top: 1%;
 }
 
