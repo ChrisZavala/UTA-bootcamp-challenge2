@@ -87,69 +87,112 @@ nav a:hover {
 }
 
 h2 {
-  margin: 4% 0;
+  /* margin: 4% 0; */
   font-size: 65px;
+  display: flexbox;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: var(--dark);
-  margin: 20px 0px 0px 25px;
+  /* margin: 20px 0px 0px 25px; */
   text-align: right;
+  text-align: justify;
 }
 
-.aboutme {
+/* .aboutme {
   font-size: 60px;
   float: right;
   font-weight:bolder;
   text-align:right;
   margin-top: -5%;
-  padding-right: 5%;
-} 
+  padding-right: 5%; */
+/* }  */
 
-.aboutmecontainer {
+/* .aboutmecontainer {
   height: 300px;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
 
-.aboutmewrapper {
+/* .aboutmewrapper {
   border-right: 5px solid var(--dark);
   height: 275px;
   float: left;
   width: 15%;
   margin-top: 25px;
-}
+} */
 
-.aboutmeparagraph {
-  float: right;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 18px;
-  margin-right: 125px;
+.aboutme p {
+  /* float: right; */
+  
+  /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  
+  margin-left: 20rem;
+  margin-right: 10rem;
+  width: 200%;
+  /* margin-right: 125px;
   margin-top: 25px;
-  width: 78%;
-  padding-left: 3%;
+  width: 78%; */
+  /* padding-left: 3%; */
 }
-.work {
+/* .work {
   font-size: 60px;
   float: right;
   font-weight: bolder;
-  padding-right: 100%; 
+  padding-right: 5%; 
   
+} */
+.row {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* row-gap: 0.25rem; */
+  /* height: 400px; */
 }
-.workcontainer {
-  height: 400px;
+.gap {
+  column-gap: 0.5rem;
+}
+.column-gap {
+ column-gap: 0.5rem;
 }
 
-.workwrapper {
+.img-fluid {
+  width: 100%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+.col-12 {
+  flex-basis: 100%;
+}
+
+/* .workwrapper {
   border-right: 5px solid var(--dark);
   height: 700px;
   float: left;
   width: 15%;
-}
-.workparagraph {
+} */
+/* .workparagraph {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 25%;
   /* float: right; 
   margin-right: 85px; */
-}
+/* } */
 
 /* .subtitleswork1 {
   background-color: var(--light);
@@ -164,62 +207,72 @@ h2 {
   position: relative;
 } */
 
-.workpics1 {
-  border: 10px solid var(--dark);
-  margin-left: 1000px;
-  margin-top: 2%;
+.border1 {
+  border: 10px solid var(--light);
+  /* margin-left: 1000px;
+  margin-top: 2%; */
 }
 
-.workpics2 {
-  border: 10px solid var(--dark);
-  
-  width: 50%;
-  margin-top: 1%;
+.border2 {
+  border: 10px solid var(--light);
+  /* width: 50%;
+  margin-top: 1%; */
 }
 
-.workpics1:hover .workpics2:hover {
-  box-shadow: inset 0px 0px 8px var(--dark), 0px 0px 15px var(--colortrans);
+.border1:hover .border2:hover {
+  box-shadow: inset 0px 0px 8px var(--hover), 0px 0px 15px var(--colortrans);
 }
 
-.contactme {
+/* .contactme {
   font-size: 60px;
   float: right;
   font-weight: bolder;
   margin-top: -5%;
-  padding-right: 5%;
-}
+  padding-right: 10px;
+} */
 
-.contactmecontainer {
-  height: 100px;
-}
+/* .contactmecontainer {
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
 
-.contactmewrapper {
+/* .contactmewrapper {
   border-right: 5px solid var(--dark);
-  height: 175px;
+  height: 200px;
   float: left;
-  width: 15%;
-  margin-top: 40px; 
-}
+  width: 5%;
+  margin-top: 250px; 
+  
+  
+} */
 
 h3 {
-  margin: 4% 0;
+  /* margin: 4% 0; */
   font-size: 60px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: var(--dark);
   font-weight: bolder;
   text-align: right;
+  text-align: justify;
+  /* float: left; */
+  /* padding: 5%; */
 }
 
 .contactinfo {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 32px;
-  display: flex;
-  width: 50%;
-  justify-content: space-between;
-  text-align: left;
-  margin-top: 5%;
-  margin-left: 5%;
-  float: left;
+  font-size: 35px;
+  /* display: flex; */
+  /* width: 50%; */
+  /* justify-content:left;
+  text-align: left; */
+
+  /* margin-top: 5%;
+  margin-left: 5%; */
+
 } 
 .contactinfo a{
   color: var(--dark);
@@ -229,7 +282,9 @@ h3 {
   text-shadow:2px 2px 8px var(--dark);
 }
 
-
+.contactinfo a {
+  justify-content: left;
+}
 
 
 
