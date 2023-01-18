@@ -35,7 +35,7 @@ h1 {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: var(--light);
   color:var(--dark);
-  font-style: bolder;
+  /* font-style: bolder; */
   padding-right: 20px;
   padding-left: 40px;
   font-size: 250%;
