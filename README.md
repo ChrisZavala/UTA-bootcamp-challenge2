@@ -1,6 +1,6 @@
-# UTA-bootcamp-Challenge2
+# UTA-Bootcamp-Challenge2
 
-## Description
+## Christopher Zavala Portfolio Website:
 
 Your Task
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses.
@@ -15,17 +15,16 @@ Let’s take a look at what a user story written from the perspective of a hirin
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+This is an included screenshot of my published Portfolio Site: 
 
-A screenshot has been provided to show what the mock up of our challenge is to the mock-up: Image located below. 
-
-![alt text](assets/images/35424398-8e7194e7531555d49722fea7e3966bfe.png)
+![alt text](./assets/images/Portfolio%20Website.jpg)
 
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
 
-List your collaborators: Christopher Zavala: https://github.com/ChrisZavala 
+List your collaborators: 
+Christopher Zavala: https://github.com/ChrisZavala 
 Josh Goeke: https://github.com/joshuagoeke
 Karen Peazzoni: https://github.com/kpeazzoni
 
