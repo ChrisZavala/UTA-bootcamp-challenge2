@@ -141,10 +141,11 @@ header nav ul li a:hover {
   margin-bottom: 82px;
 } */
 .hero .quote #quote-text {
-  box-shadow: 5px 5px 5px var(--border);
+  box-shadow: 5px 0px 10px var(--border);
   background-color: var(--navbar);
+  border-radius: 5px;
   font-size: 32px;
-  /* max-width: 40%; */
+  padding-bottom: 2px;
 }
 
 
