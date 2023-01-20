@@ -143,7 +143,7 @@ header nav ul li a:hover {
 .hero .quote #quote-text {
   box-shadow: 5px 0px 10px var(--border);
   background-color: var(--navbar);
-  border-radius: 5px;
+  border-radius: 2.5px;
   font-size: 32px;
   padding-bottom: 2px;
 }
