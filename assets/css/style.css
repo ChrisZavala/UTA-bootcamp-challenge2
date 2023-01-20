@@ -217,6 +217,10 @@ header nav ul li a:hover {
   color: var(--navbar);
   padding: 10px;
 }
+.project-label h3 {
+  font-size: 20px;
+  font-weight: bolder;
+}
 
 footer {
   display: flex;
