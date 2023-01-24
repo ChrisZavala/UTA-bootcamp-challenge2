@@ -43,7 +43,7 @@ header h1 {
   font-weight: bolder;
   background-color: var(--navbar);
   padding: 10px;
-  border: 4px solid white;
+  border: 4px 4px solid var(--dark);
 }
 
 header a {
@@ -78,74 +78,51 @@ header nav ul li a:hover {
 }
 .hero {
   background-image: url("../images/cpucircuit.jpg");
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  justify-content: end;
-  /* justify-content: space-around; */
-}
-
-/* .hero {
-  background-image: url("../images/cpucircuit.jpg");
-  height: 300px;
+  height: 450px;
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
-} */
+  /* align-items: flex-end;
+  justify-content: end; */
+}
 
 .hero img {
-  height: 400px;
+  height: 300px;
+  /* background-size: cover;
+  background-position: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left; */
 }
 /* here trying it! */
 .hero .quote {
-  font-size: 35px;
+  /* font-size: 35px;
   display: flex;
   justify-content: end;
   align-items: baseline;
   text-align: right;
   color: var(--dark);
-  /* margin-left: 64%; */
   padding-top: 10%;
   flex-shrink: 0;
-  /* flex-wrap: wrap; */
-  /* background-color: var(--navbar); */
-  margin-right: 3%;
+  margin-right: 3%; */
+  font-size: 35px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    text-shadow:2px 2px 4px white;
+    /* color: var(--dark); */
+    color: black;
   
 }
 
-/* here trying it! */
-/* .hero .quote {
-  font-size: 35px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
-  text-align: right;
-  color: var(--dark);
-  margin-left: 64%;
-  padding-top: 10%; */
-  /* background-color: var(--navbar); */
-  
-  
-/* } */
-
-/* .hero .quote #quote-text {
-  box-shadow: 5px 5px 5px var(--border);
-  display: flex;
-  flex-wrap: wrap;
-  background-color: var(--navbar);
-  font-size: 32px;
-  margin-bottom: 82px;
-} */
 .hero .quote #quote-text {
   box-shadow: 5px 0px 10px var(--border);
   background-color: var(--navbar);
   border-radius: 2.5px;
   font-size: 32px;
-  padding-bottom: 2px;
+  /* padding-bottom: 2px; */
 }
 
 
@@ -308,23 +285,15 @@ footer ul li a:hover {
 }
 /* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
-  /* .hero .quote {
-      font-size: 18px;
-      padding-right: 20px;
-      display: flex;
-      flex-wrap: wrap;
-  }
-  
-  .hero .quote #quote-text {
-      font-size: 18px;
-      display: flex;
-      flex-wrap: wrap;
-      margin-bottom: -92px;
-  } */
   .hero .quote {
     max-width: 50%;
+    font-size: 28px;
+    padding-right: 20px;
   }
-
+  .hero .quote #quote-text {
+    font-size: 25px;
+}
+  
   .title h2 {
       font-size: 35px;
   }
@@ -340,28 +309,16 @@ footer ul li a:hover {
       justify-content: center;
       padding: 20px;
   }
-  /* .hero .quote {
-    font-size: 10px;
-    padding-right: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.hero .quote #quote-text {
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: -25px;
-} */
 
   header nav ul {
       min-height: 80px;
   }
-
-  /* .hero {
-      flex-direction: column;
-  } */
-
+  .hero {
+    flex-direction: column;
+}
+.hero .quote #quote-text {
+  font-size: 20px;
+}
   .about-me {
       flex-direction: column;
   }
