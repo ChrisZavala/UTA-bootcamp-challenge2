@@ -17,7 +17,7 @@ Let’s take a look at what a user story written from the perspective of a hirin
 
 This is an included screenshot of my published Portfolio Site: 
 
-![alt text](./assets/images/Portfolio%20Website.jpg)
+![alt text](./assets/images/ChristopherZavalaPortfolio.jpg)
 
 ## Credits
 
